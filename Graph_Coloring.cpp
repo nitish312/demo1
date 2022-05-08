@@ -87,15 +87,5 @@ int main()
 	// cout << "Coloring of graph 1 \n";
 	gr.greedyColoring();
 
-	// Graph g2(5);
-	// g2.addEdge(0, 1);
-	// g2.addEdge(0, 2);
-	// g2.addEdge(1, 2);
-	// g2.addEdge(1, 4);
-	// g2.addEdge(2, 4);
-	// g2.addEdge(4, 3);
-	// cout << "\nColoring of graph 2 \n";
-	// g2.greedyColoring();
-
 	return 0;
 }
