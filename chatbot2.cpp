@@ -1,9 +1,14 @@
+// terminal : run them
+// g++ chatbot.cpp -o chatbot
+// ./chatbot
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
 void greet(string bot, string me){
-	cout<<"Hello! My name is {0}."<<bot;
-    cout<<"I just got created by {0}."<<me<<endl;
+	cout<<"Hello! My name is "<<bot;
+    cout<<"I just got created by "<<me<<endl;
 }
 
 void remind_name(){
@@ -11,7 +16,7 @@ void remind_name(){
     cout<<"Please, remind me your name : ";
     string name;
 	cin>>name;
-    cout<<"What a great name you have, {0}!"<<name<<endl;
+    cout<<"What a great name you have, "<<name<<"!"<<endl;
     cout<<"Nice to meet you..."<<endl;
 }
 
