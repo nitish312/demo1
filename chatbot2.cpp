@@ -7,7 +7,7 @@
 using namespace std;
 
 void greet(string bot, string me){
-	cout<<"Hello! My name is "<<bot;
+	cout<<"Hello! I am "<<bot<<endl;
     cout<<"I just got created by "<<me<<endl;
 }
 
@@ -43,8 +43,8 @@ void count(){
 
 void test(){
 
-	cout<<"Let's test your AI knowledge."<<endl;
-	cout<<"Who is the father of Artificial Intelligence?"<<endl;
+	cout<<"Let's test your knowledge related to Artificial Intelligence,"<<endl;
+	cout<<"Who is the Father of Artificial Intelligence?"<<endl;
 	cout<<"1. Alan Turing"<<endl;
 	cout<<"2. John McCarthy"<<endl;
 	cout<<"3. Bill Gates"<<endl;
@@ -57,7 +57,6 @@ void test(){
 		cin>>guess;
 	}
 	cout<<"Congrats, Its a correct answer!"<<endl;
-	cout<<"................................."<<endl;
 	cout<<"................................."<<endl;
 }
 
