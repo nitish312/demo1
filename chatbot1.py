@@ -1,12 +1,13 @@
-def greet(bot_name, birth_year):
+def greet(bot_name, me):
     print("Hello! My name is {0}.".format(bot_name))
-    print("I was created in {0}.".format(birth_year))
+    print("I just got created by {0}.".format(me))
 
 
 def remind_name():
     print('Please, remind me your name.')
     name = input()
     print("What a great name you have, {0}!".format(name))
+    print("Nice to meet you...")
 
 
 def guess_age():
@@ -32,12 +33,12 @@ def count():
 
 
 def test():
-    print("Let's test your programming knowledge.")
-    print("Why do we use methods?")
-    print("1. To repeat a statement multiple times.")
-    print("2. To decompose a program into several small subroutines.")
-    print("3. To determine the execution time of a program.")
-    print("4. To interrupt the execution of a program.")
+    print("Let's test your AI knowledge.")
+    print("Who is the father of Artificial Intelligence?")
+    print("1. Alan Turing")
+    print("2. John McCarthy")
+    print("3. Bill Gates")
+    print("4. Tony Stark")
 
     answer = 2
     guess = int(input())
@@ -45,20 +46,16 @@ def test():
         print("Please, try again.")
         guess = int(input())
 
-    print('Completed, have a nice day!')
-    print('.................................')
+    print('Congrats, Its a correct answer!')
     print('.................................')
     print('.................................')
 
 
 def end():
-    print('Congratulations, have a nice day!')
-    print('.................................')
-    print('.................................')
-    print('.................................')
+    print('Thank You!')
     input()
     
-greet('Sbot', '2021')  # change it as you need
+greet('Chitti', 'Nitish Chintakindi')  
 remind_name()
 guess_age()
 count()
