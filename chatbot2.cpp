@@ -1,3 +1,11 @@
+// g++
+// sudo apt install g++
+// g++ --version
+// nano demo1.cpp
+
+// g++ demo1.cpp -o demo1
+// ./demo1
+
 // terminal : run them
 // g++ chatbot.cpp -o chatbot
 // ./chatbot

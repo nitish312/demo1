@@ -55,7 +55,7 @@ def end():
     print('Thank You!')
     input()
     
-greet('Chitti', 'Nitish Chintakindi')  
+greet('robo', 'your_name')  
 remind_name()
 guess_age()
 count()
